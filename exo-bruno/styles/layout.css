@@ -1,0 +1,23 @@
+.layout_navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.layout_navbar_redirects {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  gap: 1.5rem;
+}
+
+.layout_navbar_redirect {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.layout_navbar_button {
+  color: #946bb6;
+  border: solid;
+  border-color: #946bb6;
+}
