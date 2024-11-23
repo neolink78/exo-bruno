@@ -1,0 +1,11 @@
+.homePage_header {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.homePage_header_text_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
