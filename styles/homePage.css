@@ -45,6 +45,8 @@
   padding-left: 1.2rem;
 }
 
-/*
- margin-right: 12.6rem;
-, marginRight: "7.8rem"*/
+.homePage_header_logo {
+  width: 4rem;
+  height: 4.0075rem;
+  margin-left: 5.2rem;
+}

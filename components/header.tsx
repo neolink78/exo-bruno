@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Button from "@/ui/components/button"
-
+import Logo from "@/ui/icons/logo"
 const Header = () => {
     return (
         <>
@@ -26,12 +26,9 @@ const Header = () => {
            <p>Where ESG</p>
            <p>can be leveraged</p>
            </div>
-           <Image 
-           src='/logo.svg' 
-           width={500} 
-           height={500} 
-           alt="logo" 
-           style={{width: "4rem", height: '4.0075rem', marginLeft: "5.2rem"}}/>
+           <div className="homePage_header_logo">
+           <Logo size="64"/>
+           </div>
         <div className="homePage_header_text_right">
           <p className="homePage_header_text_right_text">+500 companies use Greenscope</p>
           <Button buttonHeight="3.125rem" buttonWidth="8.5625rem">Get a demo</Button>
