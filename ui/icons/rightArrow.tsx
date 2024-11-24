@@ -1,11 +1,17 @@
-type RightArrowType = {
-    size?: string
-}
-
-const RightArrow = ({size}: RightArrowType) => (
-    <svg width={size || '16'} height={size || '16'} viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M6.70142 12C10.0151 12 12.7014 9.31371 12.7014 6C12.7014 2.68629 10.0151 0 6.70142 0C3.38771 0 0.701416 2.68629 0.701416 6C0.701416 9.31371 3.38771 12 6.70142 12ZM4.70142 5.6C4.4805 5.6 4.30142 5.77909 4.30142 6C4.30142 6.22091 4.4805 6.4 4.70142 6.4H7.73573L6.41857 7.71716C6.26236 7.87337 6.26236 8.12663 6.41857 8.28284C6.57478 8.43905 6.82805 8.43905 6.98426 8.28284L8.98426 6.28284C9.14047 6.12663 9.14047 5.87337 8.98426 5.71716L6.98426 3.71716C6.82805 3.56095 6.57478 3.56095 6.41857 3.71716C6.26236 3.87337 6.26236 4.12663 6.41857 4.28284L7.73573 5.6H4.70142Z" fill="#946BB6"/>
+const RightArrow = () => (
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_994_1709)">
+<path d="M15.9982 9.99927H4.79822" stroke="#F4F8EF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.9989 13.9993L15.9989 9.99927" stroke="#F4F8EF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.9989 5.99951L15.9989 9.99951" stroke="#F4F8EF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_994_1709">
+<rect width="19.2" height="19.2" fill="white" transform="translate(0.799927 0.399902)"/>
+</clipPath>
+</defs>
 </svg>
-)
 
-export default RightArrow
+    )
+    
+    export default RightArrow

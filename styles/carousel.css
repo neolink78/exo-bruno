@@ -1,0 +1,15 @@
+.carousel_container {
+  height: 55.8125rem;
+  background-color: #3c4a41;
+  color: #f4f8ef;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 74.8rem;
+}

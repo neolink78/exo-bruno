@@ -1,5 +1,5 @@
 import React from "react"
-import RightArrow from "../icons/rightArrow"
+import ButtonArrow from "../icons/buttonArrow"
 
 type ButtonTypes = {
  children: React.ReactNode
@@ -21,13 +21,10 @@ const Button = ({
     style={{width: buttonWidth, height: buttonHeight, fontSize: buttonFontSize}}>
     {children}
     <div className="ui_button_arrow">
-    <RightArrow size={arrowSize}/>
+    <ButtonArrow size={arrowSize}/>
     </div>
     </a>
     )
 }
 
 export default Button
-
-//height: 3.125rem;
-//width: 8.5625rem;
