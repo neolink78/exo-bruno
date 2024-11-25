@@ -1,0 +1,131 @@
+.breadcrumb_container {
+  margin-top: 7.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.breadcrumb_title_container {
+  display: flex;
+  max-width: 74.8rem;
+  width: 100%;
+  height: 6rem;
+  align-items: flex-end;
+}
+
+.breadcrumb_title {
+  width: 32rem;
+  line-height: 3rem;
+  color: #3c4a41;
+  font-size: 2.5rem;
+}
+
+.breadcrumb_layers {
+  display: flex;
+  width: 45.0625rem;
+  height: 3.3125rem;
+  align-items: center;
+  justify-content: space-around;
+  border: solid 0.0625rem #3c4a4133;
+  border-radius: 6.25rem;
+}
+
+.breadcrumb_layer {
+  color: #3c4a41;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6.25rem;
+  cursor: pointer;
+}
+
+.breadcrumb_layer:hover {
+  background-color: #3c4a411a;
+}
+
+.breadcrumb_layer.active {
+  background-color: #3c4a411a;
+}
+
+.breadcrumb_content_container {
+  display: flex;
+  justify-content: center;
+}
+
+.breadcrumb_content {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 12rem;
+  align-items: center;
+  height: 35.8125rem;
+  border-radius: 0.5rem;
+  max-width: 74.5rem;
+  width: 100%;
+}
+
+.breadcrumb_content_left_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 26.7875rem;
+  margin-right: 0.9rem;
+}
+
+.breadcrumb_content_header {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.breadcrumb_content_title {
+  width: 18rem;
+  font-size: 2rem;
+}
+
+.breadcrumb_content_labels {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.breadcrumb_content_label {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  height: 1.6rem;
+  padding: 0.5rem;
+  border-radius: 8.333rem;
+}
+
+.breadcrumb_content_description {
+  width: 21rem;
+  height: 7.875rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+.breadcrumb_content_right_side {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 0.9rem;
+}
+
+.breadcrumb_image {
+  border-radius: 0.5rem;
+  position: relative;
+}
+.breadcrumb_image_logo {
+  position: absolute;
+  padding: 1rem 0 0 0.9rem;
+}
+
+.breadcrumb_image_graphic {
+  padding: 2.7rem 0 2.7rem 5rem;
+}
+
+.breadcrumb_image_learn_more {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  align-self: flex-end;
+}

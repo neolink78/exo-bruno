@@ -41,7 +41,6 @@
   width: 49.5rem;
   height: 31.5625rem;
   opacity: 0.5;
-  transition: opacity 0.5s ease;
   transform: scale(0.8);
   transition: transform 0.5s ease, opacity 0.5s ease;
 }
