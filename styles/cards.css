@@ -1,0 +1,71 @@
+.cards_container {
+  border-top: solid 0.0625rem #3c4a4133;
+  border-bottom: solid 0.0625rem #3c4a4133;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 48rem;
+  margin-top: 7.45rem;
+}
+
+.cards_children_container {
+  display: flex;
+  max-width: 74.8rem;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.cards_header {
+  font-size: 3rem;
+  line-height: 3.9rem;
+  width: 37rem;
+  margin-top: 7.75rem;
+  color: #3c4a41;
+  font-weight: 500;
+}
+
+.cards_content {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 4.4rem;
+}
+
+.card_container {
+  width: 37rem;
+  height: 20.625rem;
+  border-radius: 0.5rem;
+}
+
+.card_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.45rem;
+  gap: 13.3rem;
+}
+
+.card_header_title {
+  width: 15.75rem;
+  font-size: 2rem;
+}
+
+.card_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7.2rem;
+  gap: 9.2rem;
+}
+
+.card_bottom_button {
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  gap: 1rem;
+}
+
+.card_bottom_description {
+  width: 15.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}

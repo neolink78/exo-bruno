@@ -1,0 +1,88 @@
+.carousel_cards_container {
+  border-bottom: solid 0.0625rem #3c4a4133;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 55rem;
+  margin-top: 7.55rem;
+}
+
+.carousel_cards_children_container {
+  display: flex;
+  max-width: 74.8rem;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.carousel_cards_header {
+  font-size: 3rem;
+  width: 58.2rem;
+  color: #3c4a41;
+  font-weight: 500;
+}
+
+.carousel_cards_items {
+  display: flex;
+  margin-top: 4.4rem;
+  justify-content: center;
+}
+
+.carousel_card_wrapper {
+  transition: all 0.5s ease-in-out;
+  margin-left: -9rem;
+}
+
+.carousel_card_selected {
+  width: 18.25rem;
+  height: 24.25rem;
+  border-radius: 0.5rem;
+  clip-path: polygon(48% 0, 100% 4%, 100% 100%, 1% 100%, 0 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.6rem;
+}
+
+.carousel_card_selected_description {
+  font-size: 1rem;
+  width: 14.2rem;
+  height: 12rem;
+}
+
+.carousel_card_selected_bottom {
+  margin-top: 4.65rem;
+  font-size: 1.25rem;
+  padding: 1rem;
+  width: 18.25rem;
+}
+
+.carousel_card_selected_bottom_username {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.carousel_card_selected_bottom_position {
+  padding-top: 0.5rem;
+}
+
+.carousel_card_image {
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.carousel_card_bottom_buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 74.8rem;
+  margin-top: 4.4rem;
+  width: 100%;
+  font-weight: 500;
+}
+
+.carousel_card_bottom_buttons_text {
+  color: #3c4a41;
+  width: 24.5rem;
+  line-height: 1.225rem;
+}

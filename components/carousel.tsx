@@ -2,31 +2,7 @@ import Image from "next/image"
 import Logo from "@/ui/icons/logo"
 import { useState } from "react"
 import Selectors from "@/ui/components/selectors"
-
-const carouselItems = [
-    {
-        src: '/carouselManual/example.svg',
-        alt: 'carousel image',
-        title: 'For companies',
-        content: 'Elevate your ESG strategy to its full potential: measure all your impacts, lead CSRD initiatives, assess your risks and shape your sustainable strategy',
-
-    },
-    {
-        src: '/carouselManual/example.svg',
-        alt: 'carousel image',
-        title: 'For companies',
-        content: 'Elevate your ESG strategy to its full potential: measure all your impacts, lead CSRD initiatives, assess your risks and shape your sustainable strategy',
-
-    },
-    {
-        src: '/carouselManual/example.svg',
-        alt: 'carousel image',
-        title: 'For companies',
-        content: 'Elevate your ESG strategy to its full potential: measure all your impacts, lead CSRD initiatives, assess your risks and shape your sustainable strategy',
-
-    }
-]
-
+import { carouselItems } from "./items/carouselItems"
 
 const Carousel = () => {
     const [itemIndex, setItemIndex] = useState(0)

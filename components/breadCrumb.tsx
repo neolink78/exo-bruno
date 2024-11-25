@@ -1,5 +1,5 @@
 import BreadcrumbContent from "@/ui/components/breadcrumbContent"
-import { breadcrumbItems } from "./breadCrumbItems"
+import { breadcrumbItems } from "./items/breadCrumbItems"
 import { useState } from "react"
 
 
