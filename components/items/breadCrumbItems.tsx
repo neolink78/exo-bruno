@@ -4,7 +4,7 @@ export const breadcrumbItems = [{
     titleColor:"#453848",
     labelColor:"white",
     labelBackgroundColor:"#453848",
-    children: " Automatically collect data, launch campaigns, establish quality processes, and build an organization that mirrors your own, all withinour platform.  Benchmark best practices, setscoring rules, and track performance with custom dashboards.",
+    children: " Automatically collect data, launch campaigns, establish quality processes, and build an organization that mirrors your own, all within our platform.  Benchmark best practices, setscoring rules, and track performance with custom dashboards.",
     childrenColor: "#453848b2"
 },
 {

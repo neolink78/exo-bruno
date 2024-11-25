@@ -38,7 +38,6 @@ const BreadCrumb = () => {
    
     {breadcrumbItems.map((breadcrumbItem, idx) => (
             breadcrumbItem.title === selectedItem && 
-
             <BreadcrumbContent 
             key={idx}
             title = {breadcrumbItem.title}
@@ -53,7 +52,6 @@ const BreadCrumb = () => {
             imageBackgroundColor = {breadcrumbItem.imageBackgroundColor}
     >{breadcrumbItem.children}
 </BreadcrumbContent>
-
         )
     )}
   

@@ -11,13 +11,14 @@ type Props = {
 
 const Layout = ({children}: Props) => {
     const router = useRouter()
+
     return (
         <>
         <div className="layout_navbar">
             <div className="layout_navbar_container">
             <div onClick={() => router.push('/')} style={{cursor: 'pointer'}} ><Brand /></div>
             <div className="layout_navbar_redirects">
-            <div className="layout_navbar_display">
+            <div className="layout_navbar_display" >
                 Solutions
                 <div className="layout_navbar_down_arrow">
                 <DownArrow />
@@ -32,7 +33,7 @@ const Layout = ({children}: Props) => {
             <a href="/resources" className="layout_navbar_redirect">Resources</a>
             <a href="/about" className="layout_navbar_redirect">About</a>
             </div>
-            <Button buttonHeight="2.5rem" buttonWidth="12rem" arrowSize="12" buttonFontSize="0.875rem">
+            <Button buttonHeight="2.5rem" buttonWidth="10.8125rem" arrowSize="12" buttonFontSize="0.875rem">
                 Demander une démo
             </Button>
         </div>

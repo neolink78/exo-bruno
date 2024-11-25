@@ -36,32 +36,32 @@ const BreadcrumbContent = ({
     buttonColor = "#453848",
     }: BreadCrumbContentTypes) => {
     return (
-        <div className="breadcrumb_content_container">
-        <div className="breadcrumb_content "
+        <div className="ui_breadcrumb_content_container">
+        <div className="ui_breadcrumb_content "
         style={{backgroundColor}}>
-        <div className="breadcrumb_content_left_side">
-        <div className="breadcrumb_content_header" 
+        <div className="ui_breadcrumb_content_left_side">
+        <div className="ui_breadcrumb_content_header" 
         style={{color: titleColor} }>
-        <p className="breadcrumb_content_title">{title}</p>
-        <div className="breadcrumb_content_labels">
-        <p className="breadcrumb_content_label" 
+        <p className="ui_breadcrumb_content_title">{title}</p>
+        <div className="ui_breadcrumb_content_labels">
+        <p className="ui_breadcrumb_content_label" 
         style={{color: labelColor, backgroundColor: labelBackgroundColor}}>{label}</p>
-        <p className="breadcrumb_content_label" 
+        <p className="ui_breadcrumb_content_label" 
         style={{color: labelColor, backgroundColor: labelBackgroundColor}}>{label}</p>
         </div>
         </div>
-        <div className="breadcrumb_content_description" style={{color: childrenColor}}>{children}</div>
+        <div className="ui_breadcrumb_content_description" style={{color: childrenColor}}>{children}</div>
         </div>
-        <div className="breadcrumb_content_right_side">
-            <div className="breadcrumb_image" style={{backgroundColor: imageBackgroundColor }}>
-            <div className="breadcrumb_image_logo">
+        <div className="ui_breadcrumb_content_right_side">
+            <div className="ui_breadcrumb_image" style={{backgroundColor: imageBackgroundColor }}>
+            <div className="ui_breadcrumb_image_logo">
             <Logo fill={logoColor}/>
             </div>
-            <div className="breadcrumb_image_graphic">
+            <div className="ui_breadcrumb_image_graphic">
         <Graphic ownerColor={ownerColor}/>
         </div>
         </div>
-        <a href={buttonLink} className="breadcrumb_image_learn_more" style={{color: buttonColor}}>
+        <a href={buttonLink} className="ui_breadcrumb_image_learn_more" style={{color: buttonColor}}>
         <p>{button}</p>
         <ButtonArrow color={buttonColor}/>
         </a>

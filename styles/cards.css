@@ -22,6 +22,7 @@
   margin-top: 7.75rem;
   color: #3c4a41;
   font-weight: 500;
+  font-family: "PP Neue Montreal", Arial, sans-serif;
 }
 
 .cards_content {
@@ -47,6 +48,8 @@
 .card_header_title {
   width: 15.75rem;
   font-size: 2rem;
+  font-weight: 500;
+  font-family: "PP Neue Montreal", Arial, sans-serif;
 }
 
 .card_bottom {
@@ -62,6 +65,8 @@
   align-items: center;
   align-self: flex-end;
   gap: 1rem;
+  font-weight: 500;
+  font-family: "PP Neue Montreal", Arial, sans-serif;
 }
 
 .card_bottom_description {
