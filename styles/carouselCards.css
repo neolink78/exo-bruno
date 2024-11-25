@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   height: 55rem;
-  margin-top: 7.55rem;
+  padding-top: 7.55rem;
 }
 
 .carousel_cards_children_container {
@@ -76,7 +76,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 74.8rem;
-  margin-top: 4.4rem;
+  margin-top: 4.3rem;
   width: 100%;
   font-weight: 500;
 }

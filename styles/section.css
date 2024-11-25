@@ -1,0 +1,34 @@
+.section_container {
+  display: flex;
+  justify-content: center;
+  height: 26.625rem;
+}
+
+.section_wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 74.8rem;
+  width: 100%;
+}
+
+.section_left_side {
+  color: #3c4a41;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 37.3rem;
+  line-height: 3.9rem;
+  font-weight: 500;
+  font-family: "PP Neue Montreal", sans-serif;
+}
+
+.section_right_side {
+  width: 24.5rem;
+  color: #3c4a41b2;
+  height: 11rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.8rem;
+  gap: 2.7rem;
+  margin-left: 6.65rem;
+}

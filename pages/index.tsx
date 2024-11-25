@@ -4,6 +4,8 @@ import Carousel from "@/components/carousel";
 import BreadCrumb from "@/components/breadCrumb";
 import Cards from "@/components/cards";
 import CarouselCards from "@/components/carouselCards";
+import Section from "@/components/section";
+
 export default function Home() {
   return (
     <>
@@ -13,6 +15,7 @@ export default function Home() {
    <BreadCrumb />
    <Cards />
    <CarouselCards />
+   <Section />
     </>
   );
 }
