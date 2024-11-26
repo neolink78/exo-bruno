@@ -1,19 +1,19 @@
-.homePage_pictures {
+.image_section_pictures {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
 }
 
-.homePage_header_text_container {
+.image_section_header_text_container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 2.8rem;
+  margin-top: 4.6rem;
 }
 
-.homePage_header_text {
+.image_section_header_text {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,30 +22,32 @@
   width: 100%;
 }
 
-.homePage_header_text_left {
+.image_section_header_text_left {
   color: #3c4a41;
   font-family: "PP Neue Montreal", Arial, sans-serif;
   font-weight: 500;
-  font-size: 2.9rem;
+  font-size: 3rem;
   width: 22.375;
   line-height: 3.8rem;
 }
 
-.homePage_header_text_right {
+.image_section_header_text_right {
   display: flex;
   flex-direction: column;
-  margin-right: 11.3rem;
+  margin-right: 10.35rem;
   justify-content: space-around;
   height: 7.75rem;
   color: #3c4a41b2;
   font-size: 1rem;
 }
 
-.homePage_header_text_right_text {
+.image_section_header_text_right_text {
   padding-left: 1.2rem;
+  font-weight: 400;
+  color: #3c4a41b2;
 }
 
-.homePage_header_logo {
+.image_section_header_logo {
   width: 4rem;
   height: 4.0075rem;
   margin-left: 5.2rem;

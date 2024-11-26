@@ -1,11 +1,11 @@
-type FooteritemsProps = {
+type FooterConfigProps = {
     [key: string]: {
       label: string
       url: string
     }[]
 }
 
-export const footeritems: FooteritemsProps = {
+export const footerConfig: FooterConfigProps = {
       Solutions: [
           {label: 'For enterprises', url: '/enterprises'},
           {label: 'For investors', url: '/investors'},

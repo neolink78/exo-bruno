@@ -1,13 +1,13 @@
 @import "./globals.css";
 @import "./layout.css";
-@import "./homePage.css";
+@import "./imageSection.css";
 @import "./uiIcons.css";
-@import "./logoSlider.css";
-@import "./carousel.css";
-@import "./breadcrumb.css";
-@import "./cards.css";
-@import "./carouselCards.css";
-@import "./section.css";
+@import "../ui/components/logoSlider/logoSlider.css";
+@import "../ui/components/carousel/carousel.css";
+@import "../ui/components/breadcrumb/breadcrumb.css";
+@import "../ui/components/cards/cards.css";
+@import "../ui/components/carouselCards/carouselCards.css";
+@import "../ui/components/section/section.css";
 
 @import url("https://fonts.cdnfonts.com/css/pp-neue-montreal");
 @import url("https://fonts.cdnfonts.com/css/inter");

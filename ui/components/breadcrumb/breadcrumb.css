@@ -1,5 +1,5 @@
 .breadcrumb_container {
-  margin-top: 7.5rem;
+  margin-top: 7.6rem;
   display: flex;
   justify-content: center;
 }
@@ -36,6 +36,7 @@
   padding: 0.5rem 0.75rem;
   border-radius: 6.25rem;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .breadcrumb_layer:hover {

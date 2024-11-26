@@ -1,4 +1,4 @@
-export const carouselCardsItems = [{
+export const carouselCardsConfig = [{
     src: '/carouselCards/character1.svg',
     username: "Philippe",
     position: "Chef de projet ESG",

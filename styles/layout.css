@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 0.2rem;
+  padding-top: 0.5rem;
   background-color: white;
   z-index: 9999;
 }
@@ -17,6 +17,7 @@
   width: 100%;
   max-width: 74.8rem;
   font-family: "PP Neue Montreal", Arial, sans-serif;
+  position: relative;
 }
 
 .layout_navbar_redirects {
@@ -26,6 +27,8 @@
   font-size: 0.875rem;
   opacity: 70%;
   gap: 1.5rem;
+  font-family: "PP Neue Montreal", Arial, sans-serif;
+  font-weight: 500;
 }
 
 .layout_navbar_display {

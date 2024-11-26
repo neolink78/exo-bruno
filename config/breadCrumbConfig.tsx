@@ -1,4 +1,4 @@
-export const breadcrumbItems = [{
+export const breadcrumbConfig = [{
     title:"ESG Data Solution",
     backgroundColor:"#ffdda5",
     titleColor:"#453848",

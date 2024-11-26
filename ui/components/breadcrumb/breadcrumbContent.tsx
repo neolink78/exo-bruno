@@ -1,8 +1,8 @@
-import Logo from "../icons/logo"
-import Graphic from "../icons/graphic"
-import ButtonArrow from "../icons/buttonArrow"
+import Logo from "@/ui/icons/logo"
+import Graphic from "@/ui/icons/graphic"
+import ButtonArrow from "@/ui/icons/buttonArrow"
 
-type BreadCrumbContentTypes = {
+export type BreadCrumbContentTypes = {
     title: string,
     titleColor?: string,
     label?: string, 

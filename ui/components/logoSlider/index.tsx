@@ -1,15 +1,11 @@
 import { useEffect } from "react";
 import Image from "next/image";
 
-const logos = [
-    "/logosSlider/slack.svg",
-    "/logosSlider/doctolib.svg",
-    "/logosSlider/spendesk.svg",
-    "/logosSlider/natixis.svg",
-    "/logosSlider/payfit.svg",
-  ]
+type logoSliderType = {
+  logos : string[]
+}
 
-const LogoSlider = () => {
+const LogoSlider = ({logos}: logoSliderType) => {
     useEffect(() => {
         const logosSlide = document.querySelector(".logos-slide");
         if (logosSlide){
@@ -21,7 +17,7 @@ const LogoSlider = () => {
         <div className="logos">
           <div className="logos-slide">
             {logos.concat(logos).map((logo, idx) => (
-            <Image key={idx} src={logo} alt={`logo ${idx}`} width={500} height={500} />
+            <Image key={idx} src={logo} alt={`logo ${idx}`} width={100.63} height={100.63} />
             ))}
           </div>
         </div>

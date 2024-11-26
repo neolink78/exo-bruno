@@ -1,4 +1,4 @@
-export const carouselItems = [
+export const carouselConfig = [
     {
         src: '/carouselManual/example.svg',
         alt: 'carousel image',
