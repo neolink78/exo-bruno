@@ -12,6 +12,7 @@ Création de page à respecter au pixel près pour test technique.
 
 📁 Structure du projet
 
+```
 .
 ├── components/       # Composants non réutilisables
 ├── config/           # Données à insérer dans les composants faits dans "ui" en props
@@ -21,7 +22,7 @@ Création de page à respecter au pixel près pour test technique.
 ├── ui/               # Composants réutilisables et icônes modifiables
 ├── package.json      # Dépendances et scripts du projet
 └── README.md         # Documentation du projet
-
+```
 
 
 ⚙️ Prérequis
