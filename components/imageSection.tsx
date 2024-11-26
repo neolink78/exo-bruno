@@ -6,13 +6,13 @@ const ImageSection = () => {
         <>
         <div className="image_section_pictures">
             <Image 
-            src='/headerVideo.svg'
+            src='/images/headerVideo.svg'
             alt="welcoming video"
             width={592}
             height={440}
              />
               <Image 
-            src='/headerGraphic.svg'
+            src='/images/headerGraphic.svg'
             alt="graphic example"
             width={592}
             height={441}

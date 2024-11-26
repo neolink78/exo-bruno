@@ -16,11 +16,11 @@ export default function Home() {
     <Layout>
    <ImageSection />
    <LogoSlider logos={[
-  "/logosSlider/slack.svg",
-  "/logosSlider/doctolib.svg",
-  "/logosSlider/spendesk.svg",
-  "/logosSlider/natixis.svg",
-  "/logosSlider/payfit.svg",
+  "/images/logosSlider/slack.svg",
+  "/images/logosSlider/doctolib.svg",
+  "/images/logosSlider/spendesk.svg",
+  "/images/logosSlider/natixis.svg",
+  "/images/logosSlider/payfit.svg",
 ]} />
    <Carousel title='A solution for everyone' carouselConfig={carouselConfig}/>
    <BreadCrumb 

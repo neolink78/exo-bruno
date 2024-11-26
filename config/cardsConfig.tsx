@@ -1,5 +1,5 @@
 export const cardsConfig = [{
-    imgSrc: '/cards/dbIcon.svg',
+    imgSrc: '/images/cards/dbIcon.svg',
     imgAlt: 'db icon',
     title: 'Data integration',
     textColor: '#3C4A41',
@@ -9,7 +9,7 @@ export const cardsConfig = [{
     description: 'Lorem ipsum dolor sit amet consectetur. Sagittis sed congue semper sapien pulvinar. Tellus fames velit leo vel.'
   },
   {
-    imgSrc: '/cards/lockIcon.svg',
+    imgSrc: '/images/cards/lockIcon.svg',
     imgAlt: 'lock icon',
     title: 'Security',
     textColor: '#F4F8EF',
