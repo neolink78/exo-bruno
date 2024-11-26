@@ -5,20 +5,22 @@ Création de page à respecter au pixel près pour test technique.
 
 🚀 Fonctionnalités
 
-Mise en place d'une architecture basique Next.js.
-Création d'une page front-end statique/dynamique.
+  - Mise en place d'une architecture basique Next.js.
+  - Création d'une page front-end statique/dynamique.
+  - Gestion des composants réutilisables et des données via des props.
+  - Utilisation d'une organisation claire pour une meilleure maintenabilité.
 
 📁 Structure du projet
 
 .
-├── components/       # composants non réutilisables
-├── config/       # données à insérer dans les composants faits dans ui en props
-├── pages/       # Pages Next.js
-├── public/      # Contient les assets statiques (images, icônes, etc.)
-├── styles/      # Fichiers CSS pour la mise en page
-├── ui/      # composants réutilisables et icones modifiables
-├── package.json # Dépendances et scripts du projet
-└── README.md    # Documentation du projet
+├── components/       # Composants non réutilisables
+├── config/           # Données à insérer dans les composants faits dans "ui" en props
+├── pages/            # Pages Next.js
+├── public/           # Contient les assets statiques (images, icônes, etc.)
+├── styles/           # Fichiers CSS pour la mise en page
+├── ui/               # Composants réutilisables et icônes modifiables
+├── package.json      # Dépendances et scripts du projet
+└── README.md         # Documentation du projet
 
 
 ⚙️ Prérequis
