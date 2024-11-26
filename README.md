@@ -33,42 +33,39 @@ Node.js (version 14 ou supérieure recommandée)
 npm ou yarn (gestionnaire de paquets)
 
 🛠️ Installation
-Clonez le dépôt :
 
-bash
-Copier le code
+1. Clonez le dépôt :
+
+```
 git clone https://github.com/votre-utilisateur/exo-bruno.git
 cd exo-bruno
-Installez les dépendances :
+```
 
-bash
-Copier le code
+2. Installez les dépendances :
+
+```
 npm install
+```
 
-ou avec Yarn :
+  ou avec Yarn :
 
-bash
-Copier le code
+```
 yarn
+```
 
+3. Lancez le serveur de développement :
 
-Lancez le serveur de développement :
-
-bash
-Copier le code
+```
 npm run dev
-ou avec Yarn :
+```
 
-bash
-Copier le code
+  ou avec Yarn :
+
+```
 yarn dev
-Ouvrez http://localhost:3000 dans votre navigateur pour voir l'application.
+```
 
-
-📚 Ressources utiles
-Documentation Next.js
-Guide React
-
+4. Ouvrez http://localhost:3000 dans votre navigateur pour voir l'application.
 
 📜 Licence
 Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, le modifier et le redistribuer.
