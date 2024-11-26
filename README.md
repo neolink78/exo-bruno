@@ -68,7 +68,9 @@ yarn dev
 4. Ouvrez http://localhost:3000 dans votre navigateur pour voir l'application.
 
 📜 Licence
+
 Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, le modifier et le redistribuer.
 
 ✨ Auteur
+
 Thibaut
